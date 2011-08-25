@@ -1,6 +1,6 @@
-PhoneGap-Start
+Cardiff University
 ---
 
-A starting point for PhoneGap apps.
+A wrapper for the http://m.cardiff.ac.uk web application.
 
-To get started: fork this repo, modify the config.xml to match your details, and get building!
+Forked from PhoneGap-Start.
