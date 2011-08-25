@@ -2,7 +2,7 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		= "uk.ac.cardiff.mobile"
-	version 	= "0.0.3">
+	version 	= "0.0.4">
 
 	<name>Cardiff University</name>
 
@@ -24,11 +24,12 @@
 
 	<icon src="icon.png" gap:role="default" />
 
-<!-- Don't need these.
+<!-- Don't need this.
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
-	<feature name="http://api.phonegap.com/1.0/network"/>
 -->
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
 
 	<!-- sample preference specification -->
-	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+	<preference name="autorotate" value="false" readonly="true"/>
 </widget>
