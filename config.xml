@@ -23,7 +23,11 @@
 
 	<icon src="icon.png" gap:role="default" />
 
-<!-- Don't need this.
+<!-- Note that if no <feature> elements are selected then the resulting app
+	will require *all* permissions on Android.
+-->
+
+<!-- Don't need this one.
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 -->
 	<feature name="http://api.phonegap.com/1.0/network"/>
