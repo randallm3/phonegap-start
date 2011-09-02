@@ -2,7 +2,7 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		= "uk.ac.cardiff.mobile"
-	version 	= "0.0.4">
+	version 	= "0.0.5">
 
 	<name>Cardiff University</name>
 
@@ -26,10 +26,7 @@
 <!-- Note that if no <feature> elements are selected then the resulting app
 	will require *all* permissions on Android.
 -->
-
-<!-- Don't need this one.
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
--->
 	<feature name="http://api.phonegap.com/1.0/network"/>
 
 
